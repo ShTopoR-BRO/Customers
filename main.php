@@ -3,7 +3,6 @@
     // подключаемся к серверу
     $conn = new PDO("mysql:host=localhost;dbname=story", "root", "190687");
     // $sql = "INSERT INTO Customers (Age, FirstName, LastName) VALUES (37, 'Tom', 'Adams')";
-    // $conn->exec($sql);
     $age=$_POST["Age"];
     $first = $_POST["FirstName"];
     $last = $_POST["LastName"];
